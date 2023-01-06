@@ -9,6 +9,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*ahsan-repo-checking*/
 Route::get('locale/{locale}', function ($locale) {
   \Session::put('locale', $locale);
   //App::setLocale($locale);
